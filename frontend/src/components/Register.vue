@@ -37,7 +37,6 @@
             <button v-on:click="register" class="btn btn-lg btn-primary w-100 fs-6">Registrarse</button>
           </div>
           <div class="input-group mb-3">
-            {{ user }}
             <small class="text-info" v-on:click="redirectLogin">¿Ya tienes cuenta?</small>
             <small class="text-danger" v-if="authError">Error de autentificación</small>
           </div>
